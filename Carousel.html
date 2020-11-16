@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrusel de imagenes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">AlvaTech</div>
+            <div class="Presentacion"></div>
+            <h2>¡Bienvenido a mi Sitio Web de Pruebas! - <em>Programacion No Numerica II</em></h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="varios.html">Varios</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="entretenimiento.html">Entretenimiento</a>
+                <a href="#">Carousel Fotografico</a>
+            </nav>
+    </header>
+
+
+    <div class="contenedor">
+        <main class="contenido-principal">
+            <img src="img/1.png" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+            <div class="contenido-principal__contenedor">
+                <h1 class="contenido-principal__titulo">Amd Ryzen 9</h1>
+                <p class="contenido-principal__resumen">
+                    AMD empezó las ventas del AMD Ryzen 9 3900X en 7 de Julio 2019 por un precio de $499. Es de escritorio procesador en la arquitectura Matisse (Zen 2) priméramente desarrollado para sistemas domésticos. Tiene 12 núcleos y 24 flujos de datos y fabricado
+                    por la tecnología 7 nm,la frecuencia máxima es de 4600 MHz, con el miltiplicador desbloqueado.
+
+                </p>
+                <p class="contenido-principal__resumen">
+                    En términos de compatibilidad, este es el procesador para socket AMD Socket AM4 con TDP 125 Watt. Es compatible con la memoria DDR4 Dual-channel .
+                </p>
+            </div>
+        </main>
+
+        <div class="carousel">
+            <div class="carousel__contenedor">
+                <button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                        <img src="img/2.png" alt="AMD Ryzen 5">
+                        <p>AMD Ryzen 5</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/3.png" alt="AMD Ryzen 3">
+                        <p>AMD Ryzen 3</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/4.png" alt="Intel Core i9">
+                        <p>Intel Core i9</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/5.png" alt="Intel Core i7">
+                        <p>Intel Core i7</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img/6.png" alt="Intel Core i5">
+                        <p>Intel Core i5</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/7.png" alt="AMD Ryzen 7">
+                        <p>AMD Ryzen 7</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/8.png" alt="AMD Ryzen 9">
+                        <p>AMD Ryzen 9</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/9.png" alt="AMD Athlon APU">
+                        <p>AMD Athlon APU</p>
+                    </div>
+                </div>
+
+                <button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+            </div>
+
+            <div role="tablist" class="carousel__indicadores"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+    <footer id="main-footer">
+        <p>&copy; Ricardo Alvarez - IUP Santiago Mariño Extension Col-Cabimas</p>
+    </footer>
+</body>
+
+</html>
